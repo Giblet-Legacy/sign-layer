@@ -20,6 +20,7 @@ Every function MUST have a numbered header (e.g., `# 1. sign_capsule`).
 
 ## P2 Architecture Specifics
 - Depends on `envelope_v2` (P1 v2.0.0).
+- Current layer is `sign_v2.py` (P2 v2.0.0, SPEC_V2.md). New code imports `sign_v2`, not `sign`. `sign.py` is frozen v1.
 - Implements the capsule rule: "signature": null, canonicalise, sign raw bytes.
 - Implements detached `.sig` sidecars for non-JSON artefacts.
 - Never logs or prints secrets. Key injection is via function argument.

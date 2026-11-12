@@ -1,5 +1,7 @@
 # VERSION — P2 Sign (sign-layer)
 # Function: the current release version of this layer. Advances only on freeze.
 # 1.0.0 — P2 frozen. Tests pass (6/6).
+# 2.0.0 — sign_v2.py strict layer frozen (SPEC_V2.md). v1 6/6, v2 17/17.
+#         sign.py unchanged.
 
-1.0.0
+2.0.0
